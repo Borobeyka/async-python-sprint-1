@@ -1,9 +1,12 @@
-from multiprocessing import Pool, cpu_count, Manager, Process
+from multiprocessing import Pool, cpu_count, Manager
 from concurrent.futures import ThreadPoolExecutor
-from loguru import logger
-from pprint import pprint
 
-from tasks import *
+from tasks import (
+    DataFetchingTask,
+    DataCalculationTask,
+    DataAggregationTask,
+    DataAnalyzingTask
+)
 from utils import CITIES
 
 FILENAME = "result.csv"
@@ -12,8 +15,6 @@ def forecast_weather():
     """
     Анализ погодных условий по городам
     """
-    format = "[{time:DD.MM.YY HH:mm:ss}] [{module}.{function}:{line}] [{level}]: {message}"
-    logger.add("debug.log", enqueue=True, format=format, rotation="5 MB", compression="zip", level="DEBUG")
     cities = CITIES.keys()
     queue = Manager().Queue()
     with ThreadPoolExecutor(thread_name_prefix="ThreadFetch") as pool:

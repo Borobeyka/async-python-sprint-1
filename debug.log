@@ -118,3 +118,48 @@
 [15.03.23 12:00:52] [tasks.fetch:15] [DEBUG]: Thread ThreadFetch_12[17300] request YandexWeatherAPI for BUCHAREST
 [15.03.23 12:00:52] [tasks.fetch:15] [DEBUG]: Thread ThreadFetch_13[15584] request YandexWeatherAPI for ROMA
 [15.03.23 12:00:52] [tasks.fetch:15] [DEBUG]: Thread ThreadFetch_14[12200] request YandexWeatherAPI for CAIRO
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_0[12996] request YandexWeatherAPI for MOSCOW
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_1[13876] request YandexWeatherAPI for PARIS
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_2[14288] request YandexWeatherAPI for LONDON
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_3[3864] request YandexWeatherAPI for BERLIN
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_4[9148] request YandexWeatherAPI for BEIJING
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_5[13040] request YandexWeatherAPI for KAZAN
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_6[7440] request YandexWeatherAPI for SPETERSBURG
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_7[7224] request YandexWeatherAPI for VOLGOGRAD
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_8[3240] request YandexWeatherAPI for NOVOSIBIRSK
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_9[11168] request YandexWeatherAPI for KALININGRAD
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_0[12996] request YandexWeatherAPI for ABUDHABI
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_6[7440] request YandexWeatherAPI for WARSZAWA
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_1[13876] request YandexWeatherAPI for BUCHAREST
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_5[13040] request YandexWeatherAPI for ROMA
+[16.03.23 18:21:22] [tasks.fetch:21] [DEBUG]: Thread ThreadFetch_8[3240] request YandexWeatherAPI for CAIRO
+[16.03.23 18:21:24] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-4[7720] calculate average temp for MOSCOW
+[16.03.23 18:21:24] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-5[10388] calculate average temp for PARIS
+[16.03.23 18:21:24] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-6[11636] calculate average temp for LONDON
+[16.03.23 18:21:24] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-5[10388] calculate average temp for KAZAN
+[16.03.23 18:21:24] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-3[1956] calculate average temp for BERLIN
+[16.03.23 18:21:24] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-2[11364] calculate average temp for BEIJING
+[16.03.23 18:21:24] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-4[7720] calculate average temp for SPETERSBURG
+[16.03.23 18:21:24] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-6[11636] calculate average temp for VOLGOGRAD
+[16.03.23 18:21:24] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-3[1956] calculate average temp for NOVOSIBIRSK
+[16.03.23 18:21:24] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-4[7720] calculate average temp for ABUDHABI
+[16.03.23 18:21:24] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-2[11364] calculate average temp for KALININGRAD
+[16.03.23 18:21:24] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-5[10388] calculate average temp for WARSZAWA
+[16.03.23 18:21:25] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-6[11636] calculate average temp for BUCHAREST
+[16.03.23 18:21:25] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-3[1956] calculate average temp for ROMA
+[16.03.23 18:21:25] [tasks.run:61] [DEBUG]: Process SpawnPoolWorker-2[11364] calculate average temp for CAIRO
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate PARIS to file
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate MOSCOW to file
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate LONDON to file
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate BERLIN to file
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate BEIJING to file
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate SPETERSBURG to file
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate KAZAN to file
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate VOLGOGRAD to file
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate NOVOSIBIRSK to file
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate KALININGRAD to file
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate WARSZAWA to file
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate ABUDHABI to file
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate BUCHAREST to file
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate ROMA to file
+[16.03.23 18:21:25] [tasks.aggregate:107] [DEBUG]: Process SpawnPoolWorker-5[10388] aggregate CAIRO to file

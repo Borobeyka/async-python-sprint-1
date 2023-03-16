@@ -1,13 +1,19 @@
-from multiprocessing import Queue, current_process
-from api_client import YandexWeatherAPI as ywAPI
-from patterns import *
-from loguru import logger
-from threading import current_thread
 import os
 import sys
-import pandas as pd
+from multiprocessing import Queue, current_process
+from threading import current_thread
 
-from pprint import pprint
+import pandas as pd
+from loguru import logger
+
+from api_client import YandexWeatherAPI as ywAPI
+from clogger import logger
+from patterns import (
+    DayForecastPattern,
+    CityForecastPattern,
+    TableForecastTable
+)
+
 
 class DataFetchingTask:    
     def fetch(city: str) -> CityForecastPattern:

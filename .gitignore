@@ -3,3 +3,5 @@ creds.ini
 .idea/
 __pycache__/
 *.pyc
+debug.log
+result.csv

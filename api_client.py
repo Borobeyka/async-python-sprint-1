@@ -1,6 +1,7 @@
+from http import HTTPStatus
+from urllib.request import urlopen
 import logging
 import json
-from urllib.request import urlopen
 
 from utils import CITIES, ERR_MESSAGE_TEMPLATE
 
@@ -19,16 +20,12 @@ class YandexWeatherAPI:
             with urlopen(url) as req:
                 resp = req.read().decode("utf-8")
                 resp = json.loads(resp)
-            if req.status != 200:
-                raise Exception(
-                    "Error during execute request. {}: {}".format(
-                        resp.status, resp.reason
-                    )
-                )
+            if req.status != HTTPStatus.OK:
+                raise Exception(f"Error during execute request. {resp.status}: {resp.reason}")
             return resp
         except Exception as ex:
             logger.error(ex)
-            raise Exception(ERR_MESSAGE_TEMPLATE)
+            raise TimeoutError(ERR_MESSAGE_TEMPLATE)
 
     @staticmethod
     def _get_url_by_city_name(city_name: str) -> str:

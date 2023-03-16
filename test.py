@@ -1,7 +1,7 @@
 import unittest
 
-from patterns import *
-from tasks import *
+from patterns import CityForecastPattern
+from tasks import DataFetchingTask
 
 
 class Test(unittest.TestCase):
